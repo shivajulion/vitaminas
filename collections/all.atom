@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://eyetamins.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://eyetamins.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://eyetamins.co/collections/all.atom"/>
+  <title>Eyetamins</title>
+  <updated>2022-05-22T00:35:45-04:00</updated>
+  <author>
+    <name>Eyetamins</name>
+  </author>
+  <entry>
+    <id>https://eyetamins.co/products/6765250609209</id>
+    <published>2022-05-22T00:35:45-04:00</published>
+    <updated>2022-05-22T00:35:45-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://eyetamins.co/products/vision-support-6-bottles"/>
+    <title>Vision Support 6 Boxes</title>
+    <s:type>180 Days</s:type>
+    <s:vendor>Eyetamins, Inc.</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0600/4903/1225/files/2026_March_VS_6_Boxes.png?v=1772834540"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Eyetamins, Inc.<br>
+        <strong>Type: </strong>180 Days<br>
+        <strong>Price: </strong>
+            149.70
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><strong>This 6-box value bundle contains 180 softgels, or 180 days of suggested use.</strong></p>
+<p><strong>Eyetamins® by OPTASE® Vision Support™</strong> is an eye health supplement formulated to support macular health and help maintain clear, sharp vision. Vision Support provides a comprehensive macular nutrition vision supplement in one well-tolerated, once-daily softgel, rather than single-nutrient eye vitamin. Built for daily use, it supports macular nutrition in one step.</p>
+<ul>
+<li data-olk-copy-source="MessageBody">
+<strong>DAILY VISION SUPPORT</strong>: Once-daily softgels with lutein, zinc contributing to normal visual function, zeaxanthin, and astaxanthin to help support macular health, enhance eye health and help maintain clear, sharp vision in one well-tolerated dose</li>
+<li data-olk-copy-source="MessageBody">
+<strong>CLINICALLY BACKED INGREDIENTS:</strong> Formulated with the trusted nutrients FloraGLO® lutein and AstaPure® astaxanthin, plus an independently tested formula for confidence in quality and consistency</li>
+<li data-olk-copy-source="MessageBody">
+<strong>ANTIOXIDANT:</strong> Carotenoids, like astaxanthin, along with Vitamin C, E, Zinc and Copper contribute to the protection of cells from oxidative stress. Vitamin D supports a normal inflammatory response, important in macular health</li>
+</ul>
+<p><strong>Use as directed.</strong></p>
+<ol>
+<li>For adults one (1) softgel per day with a meal</li>
+<li>Do not exceed recommended daily dose.A dietary supplement is not a substitute for a healthy varied diet and lifestyle.</li>
+</ol>
+<p>Softgels are designed for easy swallowing and a smooth, non-chalky experience while supporting bioavailability.</p>
+<p>Each box includes 30 softgels for a 30-day supply. Softgel shell is made with bovine gelatin.</p>
+<p>Allergen information: the product contains soybeans</p>
+<p>Eyetamins® by OPTASE® is part of the OPTASE® Eye Care System.</p>
+<h4><strong>Ingredients</strong></h4>
+<p>Ascorbic Acid, Gelatin (Bovine), Refined Soybean Oil, Coconut Oil, Glycerin, Hydrogenated Soybean Oil, Safflower Oil, D-alpha-Tocopherol, Astaxanthin Oleoresin (from Haematococcus Pluvialis Algae), Olive Oil, Zinc Oxide, Sunflower Oil, Lutein (from Marigold flower), Soy Lecithin, Water, Cupric Sulfate, Red Iron Oxide, Zeaxanthin (from Capsicum fruit and Marigold flowers), DL-alpha-Tocopherol, Medium Chain Triglycerides, Tocopherols, Cholecalciferol. Contains: Soybeans</p>
+<p><span>*These statements have not been evaluated by the Food and Drug Administration. This product does not intend to diagnose, treat, cure, or prevent any disease.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Vitaleyes</s:tag>
+    <s:variant>
+      <id>https://eyetamins.co/products/6765250609209</id>
+      <title>Default Title</title>
+      <s:price currency="USD">149.70</s:price>
+      <s:sku>FRET-VisionSupp-USx6</s:sku>
+      <s:grams>510</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://eyetamins.co/products/6765250576441</id>
+    <published>2022-05-22T00:35:41-04:00</published>
+    <updated>2022-05-22T00:35:41-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://eyetamins.co/products/vision-support-3-bottles"/>
+    <title>Vision Support 3 Boxes</title>
+    <s:type>90 Days</s:type>
+    <s:vendor>Eyetamins, Inc.</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0600/4903/1225/files/2026_March_VS_3_Boxes.png?v=1774905860"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Eyetamins, Inc.<br>
+        <strong>Type: </strong>90 Days<br>
+        <strong>Price: </strong>
+            74.85
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><strong>This 3-box value bundle contains 90 softgels, or 90 days of suggested use.</strong></p>
+<p><strong>Eyetamins® by OPTASE® Vision Support™</strong> is an eye health supplement formulated to support macular health and help maintain clear, sharp vision. Vision Support provides a comprehensive macular nutrition vision supplement in one well-tolerated, once-daily softgel, rather than single-nutrient eye vitamin. Built for daily use, it supports macular nutrition in one step.</p>
+<ul>
+<li data-olk-copy-source="MessageBody">
+<strong>DAILY VISION SUPPORT</strong>: Once-daily softgels with lutein, zinc contributing to normal visual function, zeaxanthin, and astaxanthin to help support macular health, enhance eye health and help maintain clear, sharp vision in one well-tolerated dose</li>
+<li data-olk-copy-source="MessageBody">
+<strong>CLINICALLY BACKED INGREDIENTS:</strong> Formulated with the trusted nutrients FloraGLO® lutein and AstaPure® astaxanthin, plus an independently tested formula for confidence in quality and consistency</li>
+<li data-olk-copy-source="MessageBody">
+<strong>ANTIOXIDANT:</strong> Carotenoids, like astaxanthin, along with Vitamin C, E, Zinc and Copper contribute to the protection of cells from oxidative stress. Vitamin D supports a normal inflammatory response, important in macular health</li>
+</ul>
+<p><strong>Use as directed.</strong></p>
+<ol>
+<li>For adults one (1) softgel per day with a meal</li>
+<li>Do not exceed recommended daily dose.A dietary supplement is not a substitute for a healthy varied diet and lifestyle.</li>
+</ol>
+<p>Softgels are designed for easy swallowing and a smooth, non-chalky experience while supporting bioavailability.</p>
+<p>Each box includes 30 softgels for a 30-day supply. Softgel shell is made with bovine gelatin.</p>
+<p>Allergen information: the product contains soybeans</p>
+<p>Eyetamins® by OPTASE® is part of the OPTASE® Eye Care System.</p>
+<h4><strong>Ingredients</strong></h4>
+<p>Ascorbic Acid, Gelatin (Bovine), Refined Soybean Oil, Coconut Oil, Glycerin, Hydrogenated Soybean Oil, Safflower Oil, D-alpha-Tocopherol, Astaxanthin Oleoresin (from Haematococcus Pluvialis Algae), Olive Oil, Zinc Oxide, Sunflower Oil, Lutein (from Marigold flower), Soy Lecithin, Water, Cupric Sulfate, Red Iron Oxide, Zeaxanthin (from Capsicum fruit and Marigold flowers), DL-alpha-Tocopherol, Medium Chain Triglycerides, Tocopherols, Cholecalciferol. Contains: Soybeans</p>
+<p><span>*These statements have not been evaluated by the Food and Drug Administration. This product does not intend to diagnose, treat, cure, or prevent any disease.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Vitaleyes</s:tag>
+    <s:variant>
+      <id>https://eyetamins.co/products/6765250576441</id>
+      <title>Default Title</title>
+      <s:price currency="USD">74.85</s:price>
+      <s:sku>FRET-VisionSupp-USx3</s:sku>
+      <s:grams>255</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://eyetamins.co/products/6765250183225</id>
+    <published>2022-05-22T00:35:21-04:00</published>
+    <updated>2022-05-22T00:35:21-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://eyetamins.co/products/dry-eye-comfort-6-bottles"/>
+    <title>Eye Comfort 6 Bottles</title>
+    <s:type>180 Days</s:type>
+    <s:vendor>Eyetamins, Inc.</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0600/4903/1225/files/2026_March_EC_6_Bottles.png?v=1773355229"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Eyetamins, Inc.<br>
+        <strong>Type: </strong>180 Days<br>
+        <strong>Price: </strong>
+            209.70
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><strong>This 6-bottle value bundle contains 360 softgels, or 180 days of suggested use.</strong><br></p>
+<p>Eyetamins® by OPTASE® Eye Comfort™ is an omega-based eye supplement formulated to support moisture balance and eye comfort from within. The plant-based softgels fit easily into a daily routine, with a vegan, non GMO formula designed to align with a simple and consistent eye health routine.<span></span></p>
+<div data-olk-copy-source="MessageBody">Eyetamins® by OPTASE® is part of the OPTASE® Eye Care System. OPTASE® develops science-led, preservative-free eye care products with eye<br>specialists, with an eyecare routine that includes Heat, Cleanse, Hydrate, and Supplement to support comfort, hygiene, hydration, and nutrition.</div>
+<div data-olk-copy-source="MessageBody"> </div>
+<div data-olk-copy-source="MessageBody">At the core of the formula is organic sea buckthorn oil blend. The oil is included to support moisture balance and day-to-day comfort for eyes prone to dryness. Each serving (2 softgels) provides 800 mg fruit oil extract plus 200 mg seed oil. Sea buckthorn is a naturally rich source of vegan Omega-7. The Omega-7 formula works to support healthy tear production and moisture balance from within as part of long-term daily support. If you want omega nutrition but prefer to avoid fish oil, Eye Comfort™ offers a modern plant-based alternative with no fishy aftertaste.</div>
+<div data-olk-copy-source="MessageBody"><br></div>
+<div data-olk-copy-source="MessageBody">The plant-based softgels fit easily into a daily routine, with a vegan, non-GMO formula designed to align with a simple and consistent eye health routine.</div>
+<div data-olk-copy-source="MessageBody"><br></div>
+<p>Take two (2) easy-to-swallow softgels once or twice daily with meals as directed for a simple habit that supports consistency and delivers well-tolerated, moisture support everyday.</p>
+<h4>Ingredients</h4>
+<p>Organic Sea Buckthorn Oil Blend, Modified Food Starch, Glycerin, Sorbitol, Carrageenan, Water</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://eyetamins.co/products/6765250183225</id>
+      <title>Default Title</title>
+      <s:price currency="USD">209.70</s:price>
+      <s:sku>FRET-DE-Comfort60x6</s:sku>
+      <s:grams>510</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://eyetamins.co/products/6765250150457</id>
+    <published>2022-05-22T00:35:17-04:00</published>
+    <updated>2022-05-22T00:35:17-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://eyetamins.co/products/dry-eye-comfort-3-bottles"/>
+    <title>Eye Comfort 3 Bottles</title>
+    <s:type>90 Days</s:type>
+    <s:vendor>Eyetamins, Inc.</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0600/4903/1225/files/2026_March_EC_3_Bottles.png?v=1773355285"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Eyetamins, Inc.<br>
+        <strong>Type: </strong>90 Days<br>
+        <strong>Price: </strong>
+            104.85
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><strong>This 3-bottle value bundle contains 180 softgels, or 90 days of suggested use.</strong></p>
+<p>Eyetamins® by OPTASE® Eye Comfort™ is an omega-based eye supplement formulated to support moisture balance and eye comfort from within. The plant-based softgels fit easily into a daily routine, with a vegan, non GMO formula designed to align with a simple and consistent eye health routine.<span></span></p>
+<div data-olk-copy-source="MessageBody">Eyetamins® by OPTASE® is part of the OPTASE® Eye Care System. OPTASE® develops science-led, preservative-free eye care products with eye<br>specialists, with an eyecare routine that includes Heat, Cleanse, Hydrate, and Supplement to support comfort, hygiene, hydration, and nutrition.</div>
+<div data-olk-copy-source="MessageBody"> </div>
+<div data-olk-copy-source="MessageBody">At the core of the formula is organic sea buckthorn oil blend. The oil is included to support moisture balance and day-to-day comfort for eyes prone to dryness. Each serving (2 softgels) provides 800 mg fruit oil extract plus 200 mg seed oil. Sea buckthorn is a naturally rich source of vegan Omega-7. The Omega-7 formula works to support healthy tear production and moisture balance from within as part of long-term daily support. If you want omega nutrition but prefer to avoid fish oil, Eye Comfort™ offers a modern plant-based alternative with no fishy aftertaste.</div>
+<div data-olk-copy-source="MessageBody"><br></div>
+<div data-olk-copy-source="MessageBody">The plant-based softgels fit easily into a daily routine, with a vegan, non-GMO formula designed to align with a simple and consistent eye health routine.</div>
+<div data-olk-copy-source="MessageBody"><br></div>
+<p>Take two (2) easy-to-swallow softgels once or twice daily with meals as directed for a simple habit that supports consistency and delivers well-tolerated, moisture support everyday.</p>
+<h4>Ingredients</h4>
+<p>Organic Sea Buckthorn Oil Blend, Modified Food Starch, Glycerin, Sorbitol, Carrageenan, Water</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://eyetamins.co/products/6765250150457</id>
+      <title>Default Title</title>
+      <s:price currency="USD">104.85</s:price>
+      <s:sku>FRET-DE-Comfort60x3</s:sku>
+      <s:grams>255</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://eyetamins.co/products/6765249724473</id>
+    <published>2022-05-22T00:34:43-04:00</published>
+    <updated>2022-05-22T00:34:43-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://eyetamins.co/products/dry-eyes"/>
+    <title>Eye Comfort</title>
+    <s:type>30 Days</s:type>
+    <s:vendor>Eyetamins, Inc.</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0600/4903/1225/files/2026_March_EC_1_bottle.png?v=1773359951"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Eyetamins, Inc.<br>
+        <strong>Type: </strong>30 Days<br>
+        <strong>Price: </strong>
+            34.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Eyetamins® by OPTASE® Eye Comfort™ is an omega-based eye supplement formulated to support moisture balance and eye comfort from within. The plant-based softgels fit easily into a daily routine, with a vegan, non GMO formula designed to align with a simple and consistent eye health routine.<span></span></p>
+<div data-olk-copy-source="MessageBody">Eyetamins® by OPTASE® is part of the OPTASE® Eye Care System. OPTASE® develops science-led, preservative-free eye care products with eye<br>specialists, with an eyecare routine that includes Heat, Cleanse, Hydrate, and Supplement to support comfort, hygiene, hydration, and nutrition.</div>
+<div data-olk-copy-source="MessageBody"> </div>
+<div data-olk-copy-source="MessageBody">At the core of the formula is organic sea buckthorn oil blend. The oil is included to support moisture balance and day-to-day comfort for eyes prone to dryness. Each serving (2 softgels) provides 800 mg fruit oil extract plus 200 mg seed oil. Sea buckthorn is a naturally rich source of vegan Omega-7. The Omega-7 formula works to support healthy tear production and moisture balance from within as part of long-term daily support. If you want omega nutrition but prefer to avoid fish oil, Eye Comfort™ offers a modern plant-based alternative with no fishy aftertaste.</div>
+<div data-olk-copy-source="MessageBody"><br></div>
+<div data-olk-copy-source="MessageBody">The plant-based softgels fit easily into a daily routine, with a vegan, non-GMO formula designed to align with a simple and consistent eye health routine.</div>
+<div data-olk-copy-source="MessageBody"><br></div>
+<p>Take two (2) easy-to-swallow softgels once or twice daily with meals as directed for a simple habit that supports consistency and delivers well-tolerated, moisture support everyday.</p>
+<h4>Ingredients</h4>
+<p>Organic Sea Buckthorn Oil Blend, Modified Food Starch, Glycerin, Sorbitol, Carrageenan, Water</p>
+<p> </p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Main_Products</s:tag>
+    <s:variant>
+      <id>https://eyetamins.co/products/6765249724473</id>
+      <title>Default Title</title>
+      <s:price currency="USD">34.95</s:price>
+      <s:sku>FRET-DE Comfort 60</s:sku>
+      <s:grams>85</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://eyetamins.co/products/6765249691705</id>
+    <published>2022-05-22T00:34:29-04:00</published>
+    <updated>2022-05-22T00:34:29-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://eyetamins.co/products/vision-support"/>
+    <title>Vision Support</title>
+    <s:type>30 Days</s:type>
+    <s:vendor>Eyetamins, Inc.</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0600/4903/1225/files/Eyetamins_US_Vision_Support_Box_left_2025.png?v=1774907554"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Eyetamins, Inc.<br>
+        <strong>Type: </strong>30 Days<br>
+        <strong>Price: </strong>
+            24.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><strong>One box contains 30 softgels, or 30 days of suggested use.</strong></p>
+<p><strong>Eyetamins® by OPTASE® Vision Support™</strong><span> </span>is an eye health supplement formulated to support macular health and help maintain clear, sharp vision. Vision Support provides a comprehensive macular nutrition vision supplement in one well-tolerated, once-daily softgel, rather than single-nutrient eye vitamin. Built for daily use, it supports macular nutrition in one step.</p>
+<ul>
+<li data-olk-copy-source="MessageBody">
+<strong>DAILY VISION SUPPORT</strong>: Once-daily softgels with lutein, zinc contributing to normal visual function, zeaxanthin, and astaxanthin to help support macular health, enhance eye health and help maintain clear, sharp vision in one well-tolerated dose</li>
+<li data-olk-copy-source="MessageBody">
+<strong>CLINICALLY BACKED INGREDIENTS:</strong><span> </span>Formulated with the trusted nutrients FloraGLO® lutein and AstaPure® astaxanthin, plus an independently tested formula for confidence in quality and consistency</li>
+<li data-olk-copy-source="MessageBody">
+<strong>ANTIOXIDANT:</strong><span> </span>Carotenoids, like astaxanthin, along with Vitamin C, E, Zinc and Copper contribute to the protection of cells from oxidative stress. Vitamin D supports a normal inflammatory response, important in macular health</li>
+</ul>
+<p><strong>Use as directed.</strong></p>
+<ol>
+<li>For adults one (1) softgel per day with a meal</li>
+<li>Do not exceed recommended daily dose.A dietary supplement is not a substitute for a healthy varied diet and lifestyle.</li>
+</ol>
+<p>Softgels are designed for easy swallowing and a smooth, non-chalky experience while supporting bioavailability.</p>
+<p>Each box includes 30 softgels for a 30-day supply. Softgel shell is made with bovine gelatin.</p>
+<p>Allergen information: the product contains soybeans</p>
+<p>Eyetamins® by OPTASE® is part of the OPTASE® Eye Care System.</p>
+<h4><strong>Ingredients</strong></h4>
+<p>Ascorbic Acid, Gelatin (Bovine), Refined Soybean Oil, Coconut Oil, Glycerin, Hydrogenated Soybean Oil, Safflower Oil, D-alpha-Tocopherol, Astaxanthin Oleoresin (from Haematococcus Pluvialis Algae), Olive Oil, Zinc Oxide, Sunflower Oil, Lutein (from Marigold flower), Soy Lecithin, Water, Cupric Sulfate, Red Iron Oxide, Zeaxanthin (from Capsicum fruit and Marigold flowers), DL-alpha-Tocopherol, Medium Chain Triglycerides, Tocopherols, Cholecalciferol. Contains: Soybeans</p>
+<p><span>*These statements have not been evaluated by the Food and Drug Administration. This product does not intend to diagnose, treat, cure, or prevent any disease.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Badge-New</s:tag>
+    <s:tag>new</s:tag>
+    <s:tag>Vitaleyes</s:tag>
+    <s:variant>
+      <id>https://eyetamins.co/products/6765249691705</id>
+      <title>Default Title</title>
+      <s:price currency="USD">24.95</s:price>
+      <s:sku>FRET-Vision Supp US</s:sku>
+      <s:grams>85</s:grams>
+    </s:variant>
+  </entry>
+</feed>
