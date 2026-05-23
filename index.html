@@ -1687,231 +1687,234 @@ first.parentNode.insertBefore(script, first);
                </div> --->
                  <!-- --->
 
-              <a
-                data-open-search
-                x-ref="search"
-                @click.prevent="openSearch"
-                @keydown.space="openSearch"
-                href="search.html"
-                class="font-main uppercase h-full flex items-center"
-              >
-                <span class="inline-block h-7 w-7 fill-current align-middle"><svg
-  class="theme-icon"
-  viewBox="0 0 48 48"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 21.652a15.652 15.652 0 1 0 31.304 0 15.652 15.652 0 0 0-31.304 0v0ZM44 42l-9.28-9.28"/>
-</svg>
-</span>
-                <span class="visually-hidden">Search our site</span>
-              </a>
-              <div
-                class="absolute bottom-0 left-0 right-0 top-0 z-20 flex w-full max-h-three-quarters-screen-height px-section items-center bg-[--active-color-scheme-background] text-scheme-text"
-                x-cloak
-                x-show="searchOpen"
-                x-transition:enter="transition ease-in-out duration-200"
-                x-transition:enter-start="opacity-0"
-                x-transition:enter-end="opacity-100"
-                x-transition:leave="transition ease-in-out duration-200"
-                x-transition:leave-start="opacity-100"
-                x-transition:leave-end="opacity-0"
-                @click.away.prevent="searchOpen = false"
-                data-header-search
-              >
-                <data-island
-                  class="w-full"
-
-                    x-data="PredictiveSearch('product,collection,article,page')"
-                    @keyup="onKeyup"
-                    @keydown="onKeydown"
-                    @click.outside.prevent="close()"
-                    @keyup.escape.prevent.stop="close(false)"
-                    @focusin.window="( searchOpen && ! $root.contains($event.target) ) && close()"
-                    x-trap.inert.noscroll="searchOpen"
-
-                  on="idle"
-                >
-                  <form x-ref="searchForm" action="https://eyetamins.co/search" method="get" role="search"  @submit="onFormSubmit" @click.away.prevent="searchOpen = false">
-    <div x-ref="searchFieldComponent" class="relative py-2" >
-      <input
-        id="header-search"
-        type="search"
-        name="q"
-        value=""
-        class="header-search-input font-secondary w-full border-0 bg-transparent py-2 pl-9 shadow-none placeholder:text-scheme-text"
-        placeholder="Search"aria-expanded="false"
-          aria-owns="predictive-search-results-list"
-          aria-controls="predictive-search-results-list"
-          aria-autocomplete="list"
-          autocorrect="off"
-          autocomplete="off"
-          autocapitalize="off"
-          spellcheck="false"
-          x-ref="input"
-          x-model="rawQuery"
-          @input.debounce.300="onChange"
-          @focus="onFocus">
-      <label class="visually-hidden" for="header-search">Search</label>
-      <input type="hidden" name="options[prefix]" value="last"><button class="absolute left-0 top-1/2 flex -translate-y-1/2 transform p-1" aria-label="Search">
-        <span class="inline-block h-6 w-6 shrink-0"><svg
-  class="theme-icon"
-  viewBox="0 0 48 48"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 21.652a15.652 15.652 0 1 0 31.304 0 15.652 15.652 0 0 0-31.304 0v0ZM44 42l-9.28-9.28"/>
-</svg>
-</span>
-      </button>
-      <button x-cloak @click="close()" class="absolute right-0 top-1/2 flex -translate-y-1/2 transform p-1" type="button">
-        <span class="visually-hidden">Close (esc)</span>
-        <span class="inline-block h-6 w-6 shrink-0"><svg
-  class="theme-icon"
-  viewBox="0 0 48 48"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path d="M46 2L2 46" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M46 46L2 2" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-</span>
-      </button>
-    </div><div id="predictiveSearchResults" tabindex="-1" x-cloak class="absolute left-0 right-0 z-40 h-screen text-scheme-text">
-      <div
-        x-show="resultsOpen"
-        class="absolute left-0 right-0 z-50 h-screen bg-scheme-text/75"
-        @click="close()"
-      ></div>
-      <template x-if="loading && !results">
-        <div class="relative z-50 bg-scheme-background">
-          <div class="mx-auto h-6 w-6 pb-12 pt-12" data-predictive-loading>
-            <div class="loading"></div>
-          </div>
-        </div>
-      </template>
-      <template x-if="resultsOpen">
-        <div x-show="resultsOpen" class="relative z-50 max-h-three-quarters-screen-height scroll-pb-5 overflow-hidden overflow-y-auto bg-scheme-background px-section pb-5 lg:scroll-pb-10 lg:pb-10" x-ref="results">
-        </div>
-      </template>
-    </div>
-    <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span></form>
-                </data-island>
-              </div>
+              <!-- <a
+                 data-open-search
+                 x-ref="search"
+                 @click.prevent="openSearch"
+                 @keydown.space="openSearch"
+                 href="search.html"
+                 class="font-main uppercase h-full flex items-center"
+               >
+                 <span class="inline-block h-7 w-7 fill-current align-middle"><svg
+   class="theme-icon"
+   viewBox="0 0 48 48"
+   fill="none"
+   xmlns="http://www.w3.org/2000/svg"
+ >
+   <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 21.652a15.652 15.652 0 1 0 31.304 0 15.652 15.652 0 0 0-31.304 0v0ZM44 42l-9.28-9.28"/>
+ </svg>
+ </span>
+                 <span class="visually-hidden">Search our site</span>
+               </a>
+               --->
 
 
-            <div class="flex h-full items-center justify-end">
+               <div
+                 class="absolute bottom-0 left-0 right-0 top-0 z-20 flex w-full max-h-three-quarters-screen-height px-section items-center bg-[--active-color-scheme-background] text-scheme-text"
+                 x-cloak
+                 x-show="searchOpen"
+                 x-transition:enter="transition ease-in-out duration-200"
+                 x-transition:enter-start="opacity-0"
+                 x-transition:enter-end="opacity-100"
+                 x-transition:leave="transition ease-in-out duration-200"
+                 x-transition:leave-start="opacity-100"
+                 x-transition:leave-end="opacity-0"
+                 @click.away.prevent="searchOpen = false"
+                 data-header-search
+               >
+                 <data-island
+                   class="w-full"
 
-    <a
-      class="whitespace-nowrap font-main px-2.5 py-3.5 flex items-center transition uppercase"
-      href="cart.html"
-    >
+                     x-data="PredictiveSearch('product,collection,article,page')"
+                     @keyup="onKeyup"
+                     @keydown="onKeydown"
+                     @click.outside.prevent="close()"
+                     @keyup.escape.prevent.stop="close(false)"
+                     @focusin.window="( searchOpen && ! $root.contains($event.target) ) && close()"
+                     x-trap.inert.noscroll="searchOpen"
 
-<div class="pointer-events-none relative my-auto align-middle">
-      <span class="inline-block h-7 w-7 fill-current align-top"><svg
-  class="theme-icon"
-  viewBox="0 0 48 48"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.113 13.115h31.212a1.675 1.675 0 0 1 1.616 2.115l-3.438 12.603a5.024 5.024 0 0 1-4.846 3.703H13.99"/>
-    <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4.741h.633a3.35 3.35 0 0 1 3.277 2.66l5.579 26.5a3.35 3.35 0 0 0 3.277 2.659h19.053M14.21 40.747a2.512 2.512 0 1 0 5.025 0 2.512 2.512 0 0 0-5.024 0v0Zm16.747 0a2.512 2.512 0 1 0 5.024 0 2.512 2.512 0 0 0-5.024 0v0Z"/>
-</svg>
-<span class="visually-hidden">Cart </span>
-      </span><span class="visually-hidden">items</span>
-    </div>
-    </a>
+                   on="idle"
+                 >
+                   <form x-ref="searchForm" action="https://eyetamins.co/search" method="get" role="search"  @submit="onFormSubmit" @click.away.prevent="searchOpen = false">
+     <div x-ref="searchFieldComponent" class="relative py-2" >
+       <input
+         id="header-search"
+         type="search"
+         name="q"
+         value=""
+         class="header-search-input font-secondary w-full border-0 bg-transparent py-2 pl-9 shadow-none placeholder:text-scheme-text"
+         placeholder="Search"aria-expanded="false"
+           aria-owns="predictive-search-results-list"
+           aria-controls="predictive-search-results-list"
+           aria-autocomplete="list"
+           autocorrect="off"
+           autocomplete="off"
+           autocapitalize="off"
+           spellcheck="false"
+           x-ref="input"
+           x-model="rawQuery"
+           @input.debounce.300="onChange"
+           @focus="onFocus">
+       <label class="visually-hidden" for="header-search">Search</label>
+       <input type="hidden" name="options[prefix]" value="last"><button class="absolute left-0 top-1/2 flex -translate-y-1/2 transform p-1" aria-label="Search">
+         <span class="inline-block h-6 w-6 shrink-0"><svg
+   class="theme-icon"
+   viewBox="0 0 48 48"
+   fill="none"
+   xmlns="http://www.w3.org/2000/svg"
+ >
+   <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 21.652a15.652 15.652 0 1 0 31.304 0 15.652 15.652 0 0 0-31.304 0v0ZM44 42l-9.28-9.28"/>
+ </svg>
+ </span>
+       </button>
+       <button x-cloak @click="close()" class="absolute right-0 top-1/2 flex -translate-y-1/2 transform p-1" type="button">
+         <span class="visually-hidden">Close (esc)</span>
+         <span class="inline-block h-6 w-6 shrink-0"><svg
+   class="theme-icon"
+   viewBox="0 0 48 48"
+   fill="none"
+   xmlns="http://www.w3.org/2000/svg"
+ >
+   <path d="M46 2L2 46" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+   <path d="M46 46L2 2" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+ </svg>
+ </span>
+       </button>
+     </div><div id="predictiveSearchResults" tabindex="-1" x-cloak class="absolute left-0 right-0 z-40 h-screen text-scheme-text">
+       <div
+         x-show="resultsOpen"
+         class="absolute left-0 right-0 z-50 h-screen bg-scheme-text/75"
+         @click="close()"
+       ></div>
+       <template x-if="loading && !results">
+         <div class="relative z-50 bg-scheme-background">
+           <div class="mx-auto h-6 w-6 pb-12 pt-12" data-predictive-loading>
+             <div class="loading"></div>
+           </div>
+         </div>
+       </template>
+       <template x-if="resultsOpen">
+         <div x-show="resultsOpen" class="relative z-50 max-h-three-quarters-screen-height scroll-pb-5 overflow-hidden overflow-y-auto bg-scheme-background px-section pb-5 lg:scroll-pb-10 lg:pb-10" x-ref="results">
+         </div>
+       </template>
+     </div>
+     <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span></form>
+                 </data-island>
+               </div>
 
 
-            </div>
+             <div class="flex h-full items-center justify-end">
+
+     <a
+       class="whitespace-nowrap font-main px-2.5 py-3.5 flex items-center transition uppercase"
+       href="cart.html"
+     >
+
+ <div class="pointer-events-none relative my-auto align-middle">
+       <span class="inline-block h-7 w-7 fill-current align-top"><svg
+   class="theme-icon"
+   viewBox="0 0 48 48"
+   fill="none"
+   xmlns="http://www.w3.org/2000/svg"
+ >
+   <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.113 13.115h31.212a1.675 1.675 0 0 1 1.616 2.115l-3.438 12.603a5.024 5.024 0 0 1-4.846 3.703H13.99"/>
+     <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4.741h.633a3.35 3.35 0 0 1 3.277 2.66l5.579 26.5a3.35 3.35 0 0 0 3.277 2.659h19.053M14.21 40.747a2.512 2.512 0 1 0 5.025 0 2.512 2.512 0 0 0-5.024 0v0Zm16.747 0a2.512 2.512 0 1 0 5.024 0 2.512 2.512 0 0 0-5.024 0v0Z"/>
+ </svg>
+ <span class="visually-hidden">Cart </span>
+       </span><span class="visually-hidden">items</span>
+     </div>
+     </a>
 
 
-          </div>
+             </div>
 
 
-        </div>
-      </div>
-    </div>
-  </div>
-</data-island>
-<noscript>
-  <style>
-    html.no-js .no-js-focus-wrapper:focus-within > .no-js-focus-container {
-      display: block !important;
-    }
-  </style>
-</noscript>
-
-  <style data-shopify>
-      #shopify-section-sections--19587723100217__header {
-        position: sticky;
-        top: 0;
-        z-index: 40;
-      }
-    </style>
-  </style>
+           </div>
 
 
-  <style>
-    .logo-image {
-      max-width: 250px;
-    }
-  </style>
+         </div>
+       </div>
+     </div>
+   </div>
+ </data-island>
+ <noscript>
+   <style>
+     html.no-js .no-js-focus-wrapper:focus-within > .no-js-focus-container {
+       display: block !important;
+     }
+   </style>
+ </noscript>
+
+   <style data-shopify>
+       #shopify-section-sections--19587723100217__header {
+         position: sticky;
+         top: 0;
+         z-index: 40;
+       }
+     </style>
+   </style>
 
 
-
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "name": "Eyetamins",
-
-
-      "logo": "https:\/\/shivajulion.github.io\/cdn\/vitamol-logo.png?v=1757354712\u0026width=625",
-
-    "sameAs": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "url": "https:\/\/eyetamins.co"
-  }
-</script>
+   <style>
+     .logo-image {
+       max-width: 250px;
+     }
+   </style>
 
 
 
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": "Eyetamins",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https:\/\/eyetamins.co\/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      },
-      "url": "https:\/\/eyetamins.co"
-    }
-  </script>
+ <script type="application/ld+json">
+   {
+     "@context": "http://schema.org",
+     "@type": "Organization",
+     "name": "Eyetamins",
+
+
+       "logo": "https:\/\/shivajulion.github.io\/cdn\/vitamol-logo.png?v=1757354712\u0026width=625",
+
+     "sameAs": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+     ],
+     "url": "https:\/\/eyetamins.co"
+   }
+ </script>
 
 
 
-</div>
-<!-- END sections: header-group --><script
+   <script type="application/ld+json">
+     {
+       "@context": "http://schema.org",
+       "@type": "WebSite",
+       "name": "Eyetamins",
+       "potentialAction": {
+         "@type": "SearchAction",
+         "target": "https:\/\/eyetamins.co\/search?q={search_term_string}",
+         "query-input": "required name=search_term_string"
+       },
+       "url": "https:\/\/eyetamins.co"
+     }
+   </script>
+
+
+
+ </div>
+ <!-- END sections: header-group --><script
   type="module"
 >
   const calculateHeaderHeights = () => {
